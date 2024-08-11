@@ -30,7 +30,7 @@ class Lesson(models.Model):
         verbose_name="Ссылка на видео",
         help_text="Укажите ссылку на видео",
     )
-    course = models.ForeignKey(Course, verbose_name="курс", on_delete=models.CASCADE)
+    course = models.ForeignKey(Course, verbose_name="курс", on_delete=models.CASCADE, related_name="lessons")
 
     class Meta:
         verbose_name = "Урок"

@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "user",
     "lms",
+    "django_filters",
 ]
 
 MIDDLEWARE = [
@@ -105,3 +106,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 
 AUTH_USER_MODEL = "user.User"
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
+}
