@@ -1,5 +1,7 @@
 from django.db import models
 
+from user.models import User
+
 NULLABLE = {"null": True, "blank": True}
 
 
@@ -9,6 +11,7 @@ class Course(models.Model):
         upload_to="product/photo", verbose_name="превью", **NULLABLE
     )
     description = models.TextField(verbose_name="описание")
+    owner = models.ForeignKey(User, verbose_name="Владелец", on_delete=models.SET_NULL, **NULLABLE)
 
     class Meta:
         verbose_name = "Курс"
@@ -31,6 +34,7 @@ class Lesson(models.Model):
         help_text="Укажите ссылку на видео",
     )
     course = models.ForeignKey(Course, verbose_name="курс", on_delete=models.CASCADE, related_name="lessons")
+    owner = models.ForeignKey(User, verbose_name="Владелец", on_delete=models.SET_NULL, **NULLABLE)
 
     class Meta:
         verbose_name = "Урок"
