@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer, SerializerMethodField
 
-from lms.models import Course, Lesson
+from lms.models import Course, Lesson, Subscription
 from lms.validators import YoutubeValidator
 
 
@@ -29,3 +29,7 @@ class CourseDetailSerializer(ModelSerializer):
         model = Course
         fields = ("id", "name", "description", "preview", "number_lessons", "lessons")
 
+class SubscriptionSerializer(ModelSerializer):
+    class Meta:
+        model = Subscription
+        fields = '__all__'

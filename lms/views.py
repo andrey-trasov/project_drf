@@ -1,15 +1,18 @@
+from rest_framework import status
+from rest_framework.response import Response
 from rest_framework.generics import (
     CreateAPIView,
     ListAPIView,
     RetrieveAPIView,
     UpdateAPIView,
-    DestroyAPIView,
+    DestroyAPIView, get_object_or_404,
 )
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 
-from lms.models import Course, Lesson
-from lms.serializers import CourseSerializer, LessonSerializer, CourseDetailSerializer
+from lms.models import Course, Lesson, Subscription
+from lms.serializers import CourseSerializer, LessonSerializer, CourseDetailSerializer, SubscriptionSerializer
 from user.permissions import IsModerator, IsOwner
 
 
@@ -71,3 +74,21 @@ class LessonDestroyAPIView(DestroyAPIView):
     queryset = Lesson.objects.all()
     serializer_class = LessonSerializer
     permission_classes = (IsAuthenticated, ~IsModerator | IsOwner)
+
+class SubscriptionCreateAPIView(APIView):
+    permission_classes = (IsAuthenticated,)
+    queryset = Subscription.objects.all()
+    serializer_class = SubscriptionSerializer
+
+    def post(self, request, *args, **kwargs):
+        user = self.request.user    #получаем пользователя
+        course_id = self.request.data.get('course')    #получаем id курса
+        course = get_object_or_404(Course, pk=course_id)    #получаем объект курса из базы с помощью
+        subs_item = Subscription.objects.filter(user=user, course=course)    #получаем объекты подписок по текущему пользователю и курса
+        if subs_item.exists():    # Если подписка у пользователя на этот курс есть - удаляем ее
+            subs_item.delete()
+            message = 'Подписка удалена'
+        else:    # Если подписки у пользователя на этот курс нет - создаем ее
+            Subscription.objects.create(user=user, course=course)
+            message = 'Подписка добавлена'
+        return Response({"message": message}, status=status.HTTP_201_CREATED)
