@@ -350,6 +350,42 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Подписка",
+        "content_type": 10,
+        "codename": "add_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Подписка",
+        "content_type": 10,
+        "codename": "change_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Подписка",
+        "content_type": 10,
+        "codename": "delete_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Подписка",
+        "content_type": 10,
+        "codename": "view_subscription"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -427,6 +463,14 @@
     "fields": {
         "app_label": "lms",
         "model": "lesson"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "lms",
+        "model": "subscription"
     }
 },
 {
@@ -598,9 +642,9 @@
     "model": "lms.course",
     "pk": 3,
     "fields": {
-        "name": "Веб",
+        "name": "Python для детей2",
         "preview": "",
-        "description": "Курс по вебу",
+        "description": "Курс по hython для детей2",
         "owner": 2
     }
 },
@@ -686,6 +730,22 @@
         "link_to_video": null,
         "course": 3,
         "owner": 2
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 9,
+    "fields": {
+        "user": 3,
+        "course": 1
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 10,
+    "fields": {
+        "user": 3,
+        "course": 2
     }
 }
 ]
