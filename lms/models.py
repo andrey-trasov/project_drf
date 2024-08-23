@@ -49,8 +49,11 @@ class Lesson(models.Model):
     def __str__(self):
         return self.name
 
+
 class Subscription(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="Пользователь")
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="Пользователь"
+    )
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name="Курс")
 
     def __str__(self):

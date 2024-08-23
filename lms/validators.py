@@ -8,4 +8,6 @@ class YoutubeValidator:
     def __call__(self, value):
         val = dict(value).get(self.field)
         if val and "youtube.com" not in val:
-            raise serializers.ValidationError('Некорректная ссылка. Ссылка должна содержать адрес youtube.com')
+            raise serializers.ValidationError(
+                "Некорректная ссылка. Ссылка должна содержать адрес youtube.com"
+            )
