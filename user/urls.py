@@ -1,5 +1,5 @@
 from rest_framework.routers import SimpleRouter
-from user.views import PaymentsViewSet
+from user.views import PaymentsViewSet, PaymentsCreateAPIView
 from django.urls import path
 from rest_framework.permissions import AllowAny
 from rest_framework_simplejwt.views import (
@@ -27,6 +27,7 @@ urlpatterns = [
         TokenRefreshView.as_view(permission_classes=(AllowAny,)),
         name="token_refresh",
     ),
+    path("course_purchase/", PaymentsCreateAPIView.as_view(), name="course_purchase"),
 ]
 
 urlpatterns += router.urls
