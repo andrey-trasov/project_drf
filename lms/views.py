@@ -1,3 +1,4 @@
+from lms.tasks import add
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.generics import (
@@ -48,6 +49,24 @@ class CourseViewSet(ModelViewSet):
         elif self.action == "destroy":
             self.permission_classes = (IsOwner | ~IsModerator,)
         return super().get_permissions()
+
+    def update(self,  request, *args, **kwargs):
+        course = get_object_or_404(Course, pk=self.kwargs['pk'])    #получааем курс
+        subscriptions = Subscription.objects.filter(course=course)
+        serializer = self.get_serializer(course, data=request.data, partial=True)
+        serializer.is_valid(raise_exception=True)
+        self.perform_update(serializer)
+        if serializer.is_valid():
+            list_email = []
+            for subscription in subscriptions:
+                list_email.append(subscription.user.email)
+
+            print(list_email)
+            add.delay()
+
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 
 class LessonCreateApiView(CreateAPIView):
