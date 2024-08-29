@@ -26,6 +26,513 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-08-28T19:37:57.095Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "every second",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-08-28T19:37:59.544Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Deactivation of the crawler: every second",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-08-28T19:42:14.188Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Deactivation of the crawler: every second",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-08-28T19:42:36.503Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-08-28T19:42:36.503Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-08-28T19:42:36.503Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Deactivation of the crawler: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-08-28T19:42:55.727Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "a: every second",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-08-28T19:45:06.003Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "every 10 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-08-28T19:45:08.664Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "a: every 10 seconds",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Interval Schedule\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-08-28T19:46:04.093Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-08-28T19:46:04.093Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-08-28T19:46:04.093Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "a: every 10 seconds",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-08-28T19:46:19.669Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "every minute",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-08-28T19:46:23.480Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "123: every minute",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-08-28T19:47:43.040Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "9",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-08-28T19:47:43.043Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-08-28T19:47:43.044Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "123: every minute",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-08-28T19:48:03.407Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-08-28T20:21:04.789Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "12",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-08-28T20:21:04.792Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-08-28T20:21:04.793Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-08-28T20:21:53.350Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Deactivation_crawlers: every second",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-08-28T20:23:15.101Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "every 5 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-08-28T20:23:18.887Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Deactivation_crawlers: every 5 seconds",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Interval Schedule\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-08-28T20:35:15.237Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "15",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-08-28T20:35:15.241Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "14",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-08-28T20:35:15.242Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "13",
+        "object_repr": "Deactivation_crawlers: every 5 seconds",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-08-28T20:36:06.350Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "16",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-08-28T20:38:46.740Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "18",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-08-28T20:38:46.744Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "17",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-08-28T20:38:46.746Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "16",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-08-28T20:39:10.315Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "19",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-08-29T09:33:23.431Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "21",
+        "object_repr": "checking_date_last_entry: every second",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-08-29T09:33:23.431Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "20",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-08-29T09:33:23.431Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "19",
+        "object_repr": "moderator: every 10 seconds",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-08-29T09:34:35.083Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "deactivation_crawlers: every minute",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-08-29T09:37:16.459Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "deactivation_crawlers: every 10 seconds",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Interval Schedule\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-08-29T10:05:46.932Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "every 30 days",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Number of Periods\", \"Interval Period\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-08-29T10:05:51.165Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "22",
+        "object_repr": "deactivation_crawlers: every 30 days",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -386,6 +893,222 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": 11,
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": 11,
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": 11,
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": 11,
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add interval",
+        "content_type": 12,
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change interval",
+        "content_type": 12,
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": 12,
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view interval",
+        "content_type": 12,
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": 13,
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": 13,
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": 13,
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": 13,
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add periodic task track",
+        "content_type": 14,
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change periodic task track",
+        "content_type": 14,
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete periodic task track",
+        "content_type": 14,
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view periodic task track",
+        "content_type": 14,
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": 15,
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": 15,
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": 15,
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": 15,
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": 16,
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": 16,
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": 16,
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": 16,
+        "codename": "view_clockedschedule"
+    }
+},
+{
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -474,11 +1197,59 @@
     }
 },
 {
-    "model": "sessions.session",
-    "pk": "sgq0p4bzaus9tflo5y8kzlstoqtqbjiy",
+    "model": "contenttypes.contenttype",
+    "pk": 11,
     "fields": {
-        "session_data": ".eJxVjDEOwjAMAP-SGUVJ2gSHkZ03VHZs0wJqpaadEH9HkTrAene6txlw38Zhr7IOE5uL8eb0ywjLU-Ym-IHzfbFlmbd1ItsSe9hqbwvL63q0f4MR69i2BArsgoTQscuMHAV9ZlKFLpP2ggolYZ9iTEnCOTsF8hoTJC8FzOcLAwE4ew:1sez8X:qLvFj180GB_c4s29dUdYrJ4uNsSE_KvtwU2um89llgI",
-        "expire_date": "2024-08-30T15:45:09.941Z"
+        "app_label": "django_celery_beat",
+        "model": "crontabschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "intervalschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictask"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictasks"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "solarschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "clockedschedule"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ewq5dduhc7pczp1qlgfdxa9jhkf9g7t3",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnxGv8o6XOGaNe7JgFkS_lUiLtDpBTQvpl5LzXgto7Dtsg8TKwuyqjT70aYH1J3wHest6Zzq-s8kd4VfdBF943leT3cv4MRl_FbC5BDlhh9cin7EgCLEWCy3GEMIbsIFhMlSV0O4KkEZunYGwPWwlm9P_rZOA0:1sjO0J:E-7lfOmbb9e2kM0BwxkqiN5rDJFcpkSQOG7YMDtBjOo",
+        "expire_date": "2024-09-11T19:06:51.894Z"
     }
 },
 {
@@ -486,7 +1257,7 @@
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$600000$BqcR5plE1jttcHMTr06mA5$nezj5O06GOufV66CU6VlkS2f/vVvFNB243Z6tgs9c8k=",
-        "last_login": "2024-08-16T15:45:09.940Z",
+        "last_login": "2024-08-28T19:06:51.892Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
@@ -555,7 +1326,9 @@
         "paid_course": 1,
         "paid_lesson": 4,
         "payment_sum": 5000,
-        "payment_method": "TRANSFER"
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
     }
 },
 {
@@ -567,7 +1340,9 @@
         "paid_course": 1,
         "paid_lesson": 5,
         "payment_sum": 5000,
-        "payment_method": "TRANSFER"
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
     }
 },
 {
@@ -579,7 +1354,9 @@
         "paid_course": 1,
         "paid_lesson": 6,
         "payment_sum": 5000,
-        "payment_method": "TRANSFER"
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
     }
 },
 {
@@ -591,7 +1368,9 @@
         "paid_course": 2,
         "paid_lesson": 1,
         "payment_sum": 5000,
-        "payment_method": "TRANSFER"
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
     }
 },
 {
@@ -603,7 +1382,9 @@
         "paid_course": 2,
         "paid_lesson": 2,
         "payment_sum": 5000,
-        "payment_method": "CASH"
+        "payment_method": "CASH",
+        "session_id": null,
+        "link": null
     }
 },
 {
@@ -615,7 +1396,51 @@
         "paid_course": 2,
         "paid_lesson": 3,
         "payment_sum": 5000,
-        "payment_method": "TRANSFER"
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
+    }
+},
+{
+    "model": "user.payments",
+    "pk": 7,
+    "fields": {
+        "user": 3,
+        "date_payment": "2024-08-24T16:38:52.342Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "payment_sum": 5000,
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
+    }
+},
+{
+    "model": "user.payments",
+    "pk": 8,
+    "fields": {
+        "user": 3,
+        "date_payment": "2024-08-24T16:39:29.741Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "payment_sum": 5000,
+        "payment_method": "TRANSFER",
+        "session_id": null,
+        "link": null
+    }
+},
+{
+    "model": "user.payments",
+    "pk": 9,
+    "fields": {
+        "user": 3,
+        "date_payment": "2024-08-24T16:42:22.489Z",
+        "paid_course": 2,
+        "paid_lesson": 1,
+        "payment_sum": 5000,
+        "payment_method": "TRANSFER",
+        "session_id": "cs_test_a11Cc8XuDuDMekYRSQCdVYRNmfeOTdiVB7pTG4ZlDb6wOX1kYlHCo1Tis2",
+        "link": "https://checkout.stripe.com/c/pay/cs_test_a11Cc8XuDuDMekYRSQCdVYRNmfeOTdiVB7pTG4ZlDb6wOX1kYlHCo1Tis2#fidkdWxOYHwnPyd1blpxYHZxWjA0VXdJdF1GN0ozbERdMn1Aa3J0ND02QldtMFFSfTZqdE5NYElpXTJcYmE1VlRRXUNST2Rjb0FqTEhHfXVMTGM2bHFzQn83UF88bUEya3A2Un9yT2BSV1xwNTVDY19%2FR0pGZycpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl"
     }
 },
 {
@@ -646,6 +1471,16 @@
         "preview": "",
         "description": "Курс по hython для детей2",
         "owner": 2
+    }
+},
+{
+    "model": "lms.course",
+    "pk": 10,
+    "fields": {
+        "name": "test",
+        "preview": "",
+        "description": "test",
+        "owner": 3
     }
 },
 {
@@ -734,7 +1569,15 @@
 },
 {
     "model": "lms.subscription",
-    "pk": 9,
+    "pk": 10,
+    "fields": {
+        "user": 3,
+        "course": 2
+    }
+},
+{
+    "model": "lms.subscription",
+    "pk": 11,
     "fields": {
         "user": 3,
         "course": 1
@@ -742,10 +1585,117 @@
 },
 {
     "model": "lms.subscription",
-    "pk": 10,
+    "pk": 12,
     "fields": {
         "user": 3,
-        "course": 2
+        "course": 10
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 1,
+    "fields": {
+        "every": 1,
+        "period": "seconds"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 2,
+    "fields": {
+        "every": 30,
+        "period": "days"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 3,
+    "fields": {
+        "every": 1,
+        "period": "minutes"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 4,
+    "fields": {
+        "every": 5,
+        "period": "seconds"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 1,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "day_of_week": "*",
+        "timezone": "UTC"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2024-08-29T10:06:05.430Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 22,
+    "fields": {
+        "name": "deactivation_crawlers",
+        "task": "user.tasks.check_last_login_and_disactivate_user",
+        "interval": 2,
+        "crontab": null,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2024-08-29T10:05:51.161Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 23,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2024-08-29T10:06:05.430Z",
+        "description": ""
     }
 }
 ]
