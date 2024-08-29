@@ -34,6 +34,7 @@ class UserCreateAPIView(CreateAPIView):
         user.set_password(user.password)  # хэшируем пароль
         user.save()
 
+
 class PaymentsCreateAPIView(CreateAPIView):
     """
     Интпоинт для оплаты
@@ -49,5 +50,3 @@ class PaymentsCreateAPIView(CreateAPIView):
         payment.session_id = session_id
         payment.link = payment_link
         payment.save()
-
-

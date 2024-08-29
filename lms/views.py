@@ -54,8 +54,6 @@ class CourseViewSet(ModelViewSet):
         course = serializer.save()
         updating_course.delay(course.id)
 
-
-
     # def update(self,  request, *args, **kwargs):
     #     course = get_object_or_404(Course, pk=self.kwargs['pk'])    #получааем курс
     #     subscriptions = Subscription.objects.filter(course=course)
@@ -72,7 +70,6 @@ class CourseViewSet(ModelViewSet):
     #
     #         return Response(serializer.data)
     #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
 
 
 class LessonCreateApiView(CreateAPIView):

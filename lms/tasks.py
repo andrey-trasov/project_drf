@@ -14,8 +14,8 @@ def updating_course(course):
     course = Course.objects.filter(id=course).first()
     print(course.name)
     send_mail(
-        subject='Обновление курса',  # тема письма
-        message=f'Курс {course.name} обновлен.',  # сообщение
+        subject="Обновление курса",  # тема письма
+        message=f"Курс {course.name} обновлен.",  # сообщение
         from_email=EMAIL_HOST_USER,  # с какого мейла отправляем
-        recipient_list=list_email  # список имейлов на которые отправляем
+        recipient_list=list_email,  # список имейлов на которые отправляем
     )
